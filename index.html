@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="IO AMO PRISCILLA">
+  <title>IO AMO PRISCILLA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio">IO AMO PRISCILLA</a>
+    <nav aria-label="Navegação principal">
+      <a href="#comeco">The beginning</a>
+      <a href="#memorias">Some good memories</a>
+      <a href="#porto">Porto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <p class="hero-kicker">IO AMO</p>
+      <h1>PRISCILLA</h1>
+      <div class="verse">Senza fine<br>Tu trascini la nostra vita<br>Senza un attimo di respiro<br>Per sognare<br>Per potere ricordare<br>Ciò che abbiamo già vissuto</div>
+    </section>
+
+    <section class="story section" id="comeco">
+      <div class="section-heading">
+        <h2>The beginning</h2>
+      </div>
+      <div class="story-layout">
+        <div class="photo-frame photo-start">
+          <img src="images/como-comecou.HEIC" alt="Foto do começo da nossa história">
+          <div class="photo-fallback">Adicionar foto</div>
+        </div>
+        <div class="verse">Senza fine<br>Tu sei un attimo senza fine<br>Non hai ieri<br>Non hai domani<br>Tutto è ormai nelle tue mani<br>Mani grandi<br>Mani senza fine</div>
+      </div>
+    </section>
+
+    <section class="memories section" id="memorias">
+      <div class="section-heading">
+        <h2>Some good memories</h2>
+      </div>
+      <div class="verse memories-verse">Non m'importa della luna<br>Non m'importa delle stelle<br>Tu per me sei luna e stelle<br>Tu per me sei sole e cielo<br>Tu per me sei tutto quanto<br>Tutto quanto voglio avere</div>
+      <div class="photo-grid">
+        <div class="photo-frame"><img src="images/memoria-3.JPG" alt="Foto de uma memória nossa"><div class="photo-fallback">Adicionar foto</div></div>
+        <div class="photo-frame"><img src="images/IMG_5457.HEIC" alt="Foto de uma memória nossa"><div class="photo-fallback">Adicionar foto</div></div>
+        <div class="photo-frame"><img src="images/IMG_8653.HEIC" alt="Foto de uma memória nossa"><div class="photo-fallback">Adicionar foto</div></div>
+      </div>
+    </section>
+
+    <section class="porto section" id="porto">
+      <div class="section-heading">
+        <h2>Porto</h2>
+      </div>
+      <div class="porto-content">
+        <div class="verse">Senza fine<br>Tu trascini la nostra vita<br>Senza un attimo di respiro<br>Per sognare<br>Per potere ricordare<br>Ciò che abbiamo già vissuto</div>
+        <div class="countdown-card">
+          <p class="count-label">29 11 2026</p>
+          <div class="countdown" aria-label="Contagem regressiva para a viagem">
+            <div><strong id="days">00</strong><span>dias</span></div><i>:</i>
+            <div><strong id="hours">00</strong><span>horas</span></div><i>:</i>
+            <div><strong id="minutes">00</strong><span>minutos</span></div><i>:</i>
+            <div><strong id="seconds">00</strong><span>segundos</span></div>
+          </div>
+          <p class="count-note" id="count-note" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
